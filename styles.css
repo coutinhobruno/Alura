@@ -1,0 +1,58 @@
+body {
+    color: rgb(255, 255, 255);
+    background: black;
+}
+
+header {
+    border-bottom: solid 2px  rgb(96 227 63);
+ padding: 20px; 
+ font-size: 26px;
+ color: rgb(96 227 63);
+}
+
+section {
+    background: rgb(7 7 7)
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size:  30px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 1px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(22, 145, 6);
+}
+
+.categoria h2 {
+    color: rgb(74, 158, 14);
+}
